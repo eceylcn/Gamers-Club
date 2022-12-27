@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Alata';
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image:url("back.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing:border-box;
+}
+.maincontent{
+	float: left;
+}
+.maincontent h1{
+	color:#C1C90E;
+}
+.maincontent ul {
+  background:#C1C90E;
+  padding: 15px;
+}
+.maincontent ul li {
+  background:#C1C90E;
+  margin: 15px;
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+}
+nav{
+	flex:1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+
+nav ul li a{
+	
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+.col p{
+	line-height: 18px;
+	
+}
+h1{
+	color: #fff;
+	font-size: 100px;
+}
+p{
+	color: #fff;
+	font-size: 16px;
+	line-height: 15px;
+}
+h2{
+	color: darkviolet;
+	background-color: #C1C90E;
+}
+
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-image:url();
+	background-position: center;
+	background-size: cover;
+	transition: 0.5s;
+}
+.card1{
+	background-image:url(ac.png);
+}
+.card2{
+	background-image:url(gris.jpg);
+}
+.card3{
+	background-image:url(valy.png);
+}
+.card4{
+	background-image:url(emy.png);
+}
+.card:hover{
+	transform: translate(10px, 20px);
+}
+h5{
+	color: #fff;
+	text-shadow: 0 0 5px #999;
+}
+.card p{
+	font-size: 8px;
+	text-shadow: 0 0 15px #999;
+}
+.header{
+	background-image: url(ece.png);
+	padding: 100px;
+	height: 150px;
+}
+.header h1 {
+		font-size: 45px;
+	}
+
+.left {
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	background:#C1C90E;
+}
+.left p{
+	color: black;
+	line-height: 32px;
+}
+.left img{
+	float: left;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+footer {
+	text-align: center;
+	padding: 8px;
+	background-color:#000000;
+	width: auto;
+}
+footer p{
+	color: #808080;
+}
+footer a{
+	color:#A1A805;
+}
